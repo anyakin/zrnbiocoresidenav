@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito Sans'>
+<style>
+
+/* SIDEBAR MENU MOTHER DESIGN STUFF */
+.sidenav {
+  height: 100%; 
+  width: 222px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #061D54; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* FOR THE NAV LAIDEASE DESIGN */
+.sidenav a {
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 64px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+position: relative;
+/* left: 28.51%;
+right: 24.01%;
+ */
+top: 16.67%;
+padding-left: 25px;
+text-decoration: none;
+}
+
+/* FOR THE SEC-C HOVER CHILLING */
+.sidenav a:hover {
+  background-color: #f0f4ff25;
+}
+
+/* stuff for the company logo on top */
+
+#biocorenavlogo {
+position: absolute;
+width: 166px;
+height: 53px;
+left: 26px;
+top: 34px;
+}
+
+/* for the nav icon to have space before the text */
+.navicon {
+    padding-right: 14px;
+}
+
+/* big time stamp placeholder  */
+#timestamp{
+position: absolute;
+left: 11.65%;
+right: 4.42%;
+top: 87.85%;
+bottom: 0%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+
+color: #FFFFFF;
+}
+
+/* datetstamp placeholder here  */
+#datestamp {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+</style>
+</head>
+
+
+
+<div class="sidenav">
+<img id="biocorenavlogo" src="Biocore_Logo_BlueWhite.png">
+  <a href="#"><img class = "navicon" src="Dashboard Icon.png">Dashboard</a>
+  <a href="#"><img class = "navicon" src="Sales Icon.png">Sales</a>
+  <a href="#"><img class = "navicon" src="Inventory Icon.png">Inventory</a>
+  <a href="#"><img class = "navicon" src="History Icon.png">History</a>
+  <a href="#"><img class = "navicon" src="Reports Icon.png">Reports</a>
+
+  <div id = "timestamp"> 
+    10:50:25 AM
+    <div id = "datestamp">
+        SUN 10/12/2020
+    </div>
+
+  </div>
+
+</div>
+
+</html>
